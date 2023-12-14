@@ -1,0 +1,39 @@
+.header{
+  height: 7vh;
+}
+.header-h {
+  background-color: slategray; /* Use the appropriate color code or name for slate */
+  padding: 1rem; /* Adjust the padding as needed */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.styled-text {
+  font-size: 1.25rem; /* Equivalent to text-xl in Tailwind CSS */
+  color: #1f4e79; /* Use the appropriate color code or name for blue-800 */
+  text-transform: capitalize;
+}
+.flexx-container {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.75rem; /* Equivalent to gap-3 in Tailwind CSS */
+  width: 75%; /* Equivalent to w-3/4 in Tailwind CSS */
+  padding-right: 1.5rem; /* Equivalent to pr-6 in Tailwind CSS */
+}
+.flex-containerr {
+  display: flex;
+  justify-content: space-between;
+}
+.logout-button {
+  margin-right: 1rem; /* Equivalent to mr-4 in Tailwind CSS */
+  /* Add any additional styles for your logout button */
+}
+
+
+

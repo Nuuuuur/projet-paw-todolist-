@@ -1,0 +1,109 @@
+.task-info{
+  text-justify: distribute;
+  word-wrap: break-word;
+}
+.alltasks-container {
+
+padding-top: 1rem;
+padding-bottom: 1rem;
+border-radius: 0.5rem; /* Adjust the border-radius value as needed */
+box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 0.5rem; /* Adjust the gap value as needed */
+margin-bottom: 0.75rem; /* Adjust the margin-bottom value as needed */
+}
+.task-info{
+
+
+  font-size: 0.875rem; /* Equivalent to text-sm */
+  width: 83.333333%; /* Equivalent to w-10/12 */
+
+
+}
+.task-title {
+font-size: 1.125rem; /* Equivalent to text-lg */
+text-transform: capitalize;
+}
+.italic-opacity{
+font-style: italic; /* Equivalent to italic */
+opacity: 0.6; /* Equivalent to opacity-60 */
+}
+.remove-task {
+font-size: 0.875rem; /* Equivalent to text-sm */
+color: #fff; /* Equivalent to text-white */
+}
+.remove-task-btn {
+background-color: #bb399c; /* Equivalent to bg-blue-700 */
+border-radius: 9999px; /* Equivalent to rounded-full */
+border: 2px solid #fff; /* Equivalent to border-2 and border-white */
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Equivalent to shadow-2xl */
+padding: 0.25rem; /* Equivalent to p-1 */
+}
+.complet-container {
+
+padding-top: 1rem;
+padding-bottom: 1rem;
+border-radius: 0.5rem;
+box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 0.5rem;
+margin-bottom: 0.75rem;
+}
+
+
+/*layoutpage*/ 
+.customClassName {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .customClassName {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+.task-container {
+  width: auto;
+  margin-left: 1.25rem; /* Equivalent to mx-5 in Tailwind CSS */
+  margin-right: 1.25rem; /* Equivalent to mx-5 in Tailwind CSS */
+  margin-top: 0.75rem; /* Equivalent to mt-3 in Tailwind CSS */
+}
+
+@media (min-width: 768px) {
+  .task-container {
+    width: 33.333333%; /* Equivalent to md:w-1/3 in Tailwind CSS */
+  }
+} 
+/*outlet et indecator kanu f app css*/
+.outlet{
+  height:80vh;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  padding: 1rem;
+  overflow: auto;
+}
+.indicator{
+  display: flex;
+  align-items: center;
+  height:10vh;
+  margin:auto 10px;
+}
+/*tasindicator page */
+
+.foot-bar {
+  display: flex;
+  gap: 0.75rem; /* Equivalent to gap-3 in Tailwind CSS */
+  justify-content: space-between;
+  padding: 0.75rem; /* Equivalent to p-3 in Tailwind CSS */
+  background-color: #727c89; /* Equivalent to bg-slate-400 in Tailwind CSS */
+  border-radius: 0.5rem; /* Equivalent to rounded-lg in Tailwind CSS */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Equivalent to shadow-2xl in Tailwind CSS */
+} 
+.foot-container{
+  flex-grow: 1;
+}

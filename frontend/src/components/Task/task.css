@@ -1,0 +1,58 @@
+.task-info{
+    text-justify: distribute;
+    word-wrap: break-word;
+}
+.alltasks-container {
+
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-radius: 0.5rem; /* Adjust the border-radius value as needed */
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem; /* Adjust the gap value as needed */
+  margin-bottom: 0.75rem; /* Adjust the margin-bottom value as needed */
+}
+.task-info{
+  
+  
+    font-size: 0.875rem; /* Equivalent to text-sm */
+    width: 83.333333%; /* Equivalent to w-10/12 */
+  
+  
+}
+.task-title {
+  font-size: 1.125rem; /* Equivalent to text-lg */
+  text-transform: capitalize;
+}
+.italic-opacity{
+  font-style: italic; /* Equivalent to italic */
+  opacity: 0.6; /* Equivalent to opacity-60 */
+}
+.remove-task {
+  font-size: 0.875rem; /* Equivalent to text-sm */
+  
+  color: #fff; /* Equivalent to text-white */
+}
+.remove-task-btn {
+  background-color: #0074cc; /* Equivalent to bg-blue-700 */
+  border-radius: 20%;/* Equivalent to rounded-full */
+  border: 2px solid #fff; /* Equivalent to border-2 and border-white */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Equivalent to shadow-2xl */
+  padding: 0.25rem; /* Equivalent to p-1 */
+}
+.complet-container {
+
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+
